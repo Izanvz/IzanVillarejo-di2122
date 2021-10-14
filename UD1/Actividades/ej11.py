@@ -9,10 +9,9 @@ operaciones = os.path.join(os.path.dirname(__file__), "operaciones.txt")
 result = os.path.join(os.path.dirname(__file__), "resultados.txt")
 
 suma = lambda x, y: x + y
-resta = lambda x, y: x - y
 multiplicar = lambda x, y: x * y
+resta = lambda x, y: x - y
 dividir = lambda x, y: x / y
-
 
 def readinfo(file):
     

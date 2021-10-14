@@ -25,14 +25,10 @@ def readinfo(file):
 			x = int(operacion[0])
 			y = int(operacion[2])
    
-			if operacion[1] == "+":
-				res = suma(x, y)
-			if operacion[1] == "-":
-				res = resta(x, y)
-			if operacion[1] == "*":
-				res = multiplicar(x, y)
-			if operacion[1] == "/":
-				res = dividir(x, y)
+			if operacion[1] == "+": res = suma(x, y)
+			if operacion[1] == "-": res = resta(x, y)
+			if operacion[1] == "*": res = multiplicar(x, y)
+			if operacion[1] == "/": res = dividir(x, y)
     
 			add = str(str(operacion[0])+" "+str(operacion[1])+" "+str(operacion[2].replace("\n", " "))+"= "+str(res) + "\n")
 			filas.append(add)

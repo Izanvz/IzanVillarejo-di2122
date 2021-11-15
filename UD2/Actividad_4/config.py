@@ -1,0 +1,12 @@
+#Tamaño del boton#
+lado1_boton = 100
+lado2_boton = 100
+#Tamaño ventana estandar#
+lado1_estandar = 500
+lado2_estandar = 500
+#Tamaño ventana maximizada#
+lado1_maximizada = 800
+lado2_maximizada = 800
+#Tamaño ventana minimizada#
+lado1_minimizada = 300
+lado2_minimizada = 100
